@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Portfolio</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Cutive Mono' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+    .active {
+      border-right: 20px solid #ff98e4 !important;
+      border-left: 20px solid #ff98e4 !important;
+    }
+
+
+    .parallax {
+
+           	/* Create the parallax scrolling effect  size was cover before*/
+          	background-attachment: fixed;
+          	background-position: center;
+          	/*background-repeat: no-repeat;*/
+            background-repeat: repeat;
+          	background-size: cover;
+           width: 100vw !important;
+           padding: 0;
+           margin: 0;
+
+           width: 100vw;
+           height: 30vh;
+        }
+
+
+        .sidenav {
+            height: 100%;
+            width: 300px;
+            position: fixed;
+            z-index: 3;
+            top: 0;
+            left: 0;
+            background-color: #711c09;
+            overflow-x: hidden;
+            text-align: center;
+        }
+
+            .sidenav a {
+                padding: 6px 22px;
+                text-decoration: none;
+                font-size: 25px;
+                /*color: #bab9af;*/
+                color: #ff98e4;
+                display: block;
+            }
+
+                .sidenav a:hover {
+                    filter: brightness(90%);
+                }
+
+
+        .main {
+            margin-left: 0px; /* Same as the width of the sidenav */
+            padding: 0px;
+            height: 100%;
+            z-index: 2;
+            display: flex;
+            width: 100%;
+            align-items: stretch;
+        }
+
+        body {
+            font-family: 'Cutive Mono';
+            font-size: 22px;
+            color: #bab9af;
+            display: block;
+
+            /* Full height */
+            height: 100%;
+        }
+
+        .section {
+            border-top: 8px solid #e1e1e1;
+            border-bottom: 8px solid #e1e1e1;
+            padding:15px;
+
+        }
+
+
+        .menuButton {
+          background-color: #ff98e4;
+          color: #9c260d;
+          margin-bottom: 10px;
+        }
+
+        .menuButton:hover {
+          background-color: #9c260d !important;
+          color: #ff98e4 !important;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+
+
+        <!-- Sidebar -->
+        <div id="sidenav" class="w3-sidebar w3-bar-block w3-border-right sidenav" style="display:none;height: 100vh;text-align: center;">
+          <button onclick="w3_close()" class="w3-bar-item w3-large menuButton" style="text-align:right;background-color:#ff98e4; margin:0;">Close &times;</button>
+                    <img src="" style="width:100%;padding:20px;">
+                    <br><br>
+                    <a href="index.html" class="active">Introduction</a><br>
+                    <a href="#workexperience">Work Experience</a><br>
+
+                    <a href="#leadership">Leadership</a><br>
+
+                    <a href="#accomplishments" >Accomplishments</a><br>
+
+                    <a href="#education">Education</a><br>
+                    <a href="#mywork">My Work</a><br>
+                    <a href="#contact">Contact</a><br>
+
+                    <!-- put in social links -->
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div class="main" style="height: 100%;">
+        <button class="w3-button w3-xlarge menuButton"  id=threeLineButton style=" height: 70px; margin-left: 15px; z-index: 5; position: fixed;"onclick="w3_open()">☰</button>
+        <div class="container-fluid" style = "height:100%;">
+
+
+          <div class="row" style="width:100vw !important;">
+            <div class="col-sm-2" style="padding:0px;">
+            </div>
+            <div class="col-sm-8" class="align-middle">
+              <p id="art" style="">intro art here</p><br><br><br>
+            </div>
+            <div class="col-sm-2" style="padding-left: 0px;  padding-right: 0px;padding-bottom:5px;">
+            </div>
+          </div>
+          <div class="row section" style="width:100vw !important;">
+            <div class="col-sm-2" style="padding:0px;">
+            </div>
+            <div class="col-sm-8" class="align-middle">
+              <p id="introduction" style="">Introduction</p><br><br><br>
+              <div id=introsintro>
+                  <p>Full-fledged Computer Science & Mathematics geek with a graphic design love affair who is always seeking opportunities to enhance her knowledge and skills
+                    <br>Welcome to my portfolio<br>- Emma </p>
+              </div>
+              <div id=bio>
+                <p>My name is Emma Schreifels, and I am a modern nerd located in the marvelous Midwest.  I love delving into programming, exploring art, collecting new experiences, and continuously learning.
+                  I am passionate about education, felines, Glass Animals, innovation, and teamwork. Currently, I am a Computer Science and Mathematics student at North Dakota State University.  There, I am heavily involved in the university's collegiate-level robotics organization, Bison Robotics.
+                  Click around the other components of this site to learn more about who I am and what I do.
+                </p>
+              </div>
+              <div id=bigskills>
+                Effective communicator, highly-organized individual, creative thinker and problem-solver
+              </div>
+            </div>
+            <div class="col-sm-2" style="padding-left: 0px;  padding-right: 0px;padding-bottom:5px;">
+            </div>
+          </div>
+          <div class=parallax style=" background-image: url('imgs/topography.png');"></div>
+          <div class="row section" style="width:100vw !important;">
+            <div class="col-sm-2" style="padding:0px;">
+            </div>
+            <div class="col-sm-8" class="align-middle" style=" ">
+              <p id="workexperience" style="">Work Experience</p><br><br><br>
+            </div>
+            <div class="col-sm-2" style="padding-left: 0px;  padding-right: 0px;padding-bottom:5px;">
+            </div>
+          </div>
+          <div class=parallax style=" background-image: url('imgs/topography.png');"></div>
+          <div class="row section" style="width:100vw !important;">
+            <div class="col-sm-2" style="padding:0px;">
+            </div>
+            <div class="col-sm-8" class="align-middle" style=" ">
+              <p id="leadership" style="">Leadership</p><br><br><br>
+            </div>
+            <div class="col-sm-2" style="padding-left: 0px;  padding-right: 0px;padding-bottom:5px;">
+            </div>
+          </div>
+          <div class=parallax style=" background-image: url('imgs/topography.png');"></div>
+            <div class="row section" style="width:100vw !important;">
+            <div class="col-sm-2" style="padding:0px;">
+            </div>
+            <div class="col-sm-8" class="align-middle" style=" ">
+              <p id="accomplishments" style="">Accomplishments</p><br><br><br>
+              <p>Computer Science Department Student of Distinction at NDSU</p>
+            </div>
+            <div class="col-sm-2" style="padding-left: 0px;  padding-right: 0px;padding-bottom:5px;">
+            </div>
+          </div>
+        <div class=parallax style=" background-image: url('imgs/topography.png');"></div>
+            <div class="row section" style="width:100vw !important;">
+            <div class="col-sm-2" style="padding:0px;">
+            </div>
+            <div class="col-sm-8" class="align-middle" style=" ">
+              <p id="education" style="">Education</p><br><br><br>
+              <h2>North Dakota State University</h2>
+              <p><emp>Fargo, ND</emp></p>
+              <p>Graduated December 2018</p>
+              <h3>Computer Science (B.A.) with Mathematics Minor</h3>
+            </div>
+            <div class="col-sm-2" style="padding-left: 0px;  padding-right: 0px;padding-bottom:5px;">
+            </div>
+          </div>
+          <div class=parallax style=" background-image: url('imgs/topography.png');"></div>
+          <div class="row section" style="width:100vw !important;">
+            <div class="col-sm-2" style="padding:0px;">
+            </div>
+            <div class="col-sm-8" class="align-middle" style=" ">
+              <p id="mywork" style="">My Projects</p><br><br><br>
+              <div id=codingprojects>
+              </div>
+              <div id=designprojects>
+              </div>
+            </div>
+            <div class="col-sm-2" style="padding-left: 0px;  padding-right: 0px;padding-bottom:5px;">
+            </div>
+          </div>
+          <div class=parallax style=" background-image: url('imgs/topography.png');"></div>
+            <div class="row section" style="width:100vw !important;">
+            <div class="col-sm-2" style="padding:0px;">
+            </div>
+            <div class="col-sm-8" class="align-middle" style=" ">
+              <p id="contact" style="">Contact</p><br><br><br>
+              <p>Email: emma.schreifels@gmail.com</p>
+            </div>
+            <div class="col-sm-2" style="padding-left: 0px;  padding-right: 0px;padding-bottom:5px;">
+            </div>
+          </div>
+        </div>
+
+
+        </div>
+        <!-- /#page-content-wrapper -->
+
+
+
+    <!-- Menu Toggle Script
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>-->
+
+    <script>
+
+          function w3_open() {
+              document.getElementById("sidenav").style.display = "block";
+              document.getElementById("threeLineButton").style.display = "none";
+          }
+          function w3_close() {
+              document.getElementById("sidenav").style.display = "none";
+              document.getElementById("threeLineButton").style.display = "inline-block";
+          }
+    </script>
+
+</body>
+
+
+
+</html>
