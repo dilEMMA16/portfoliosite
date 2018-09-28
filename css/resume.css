@@ -163,6 +163,22 @@ section.resume-section {
   max-width:calc(100vw - 17rem);
 }
 
+.parallax {
+
+            /* Create the parallax scrolling effect  size was cover before*/
+            background-attachment: fixed;
+            background-position: center;
+            /*background-repeat: no-repeat;*/
+            background-repeat: repeat;
+            background-size: cover;
+           width: 100vw !important;
+           padding: 0;
+           margin: 0;
+
+           max-width: calc(100vw - 17rem);
+           height: 45vh;
+        }
+
 section.resume-section .resume-item .resume-date {
   min-width: none;
 }
@@ -173,12 +189,23 @@ section.resume-section .resume-item .resume-date {
     max-width: 75rem;
   }
 
+.parallax {
+    min-height: 100vh;
+    max-width: 75rem !important;
+  }
+
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
     max-width: 75rem;
   }
   section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+.parallax {
+    min-height: 100vh;
+    max-width: 75rem !important;
     min-width: 18rem;
   }
 }
