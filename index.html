@@ -34,6 +34,7 @@
           display:block;
           float: left;;
           width: 7rem;
+
           margin:2rem !important;
           text-align: center;
           font-size: 1rem;
@@ -41,6 +42,7 @@
 
         .biggerImg {
           width: 10rem !important;
+          height: 216px;
         }
 
         .imgbwtocolor {
@@ -394,20 +396,111 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="design" style="background-color:#fff;width:100%;">
         <div class="my-auto">
           <h2 class="mb-5"><i class="fas fa-paint-brush"style="color:#9c260d;"></i>&nbsp &nbsp Design</h2>
-          <div class="biggerImg galleryimg"><img class="imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/4.png" alt="poetree background"><br>Poetree Site Background</div>
-          <div class="biggerImg galleryimg"><img class=" imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/5.png" alt="Professional Aspirations presentation theme"><br>Professional Aspirations Theme</div>
-          <div class="biggerImg galleryimg"><img class=" imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/6.png" alt="Campus Attractions Casino Night"><br>Campus Attractions Casino Night</div>
-          <div class="biggerImg galleryimg"><img class="imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/7.png" alt="beets spotify playlist cover"><br>Spotify Playlist Cover</div>
-          <div class="biggerImg galleryimg"><img class=" imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/8.png" alt="Bison Robotics novelty tshirt design"><br>Bison Robotics Novelty Shirt Design</div>
-          <div class="biggerImg galleryimg"><img class="imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/9.png" alt="Robotics statistics"><br>Robotics Statistics</div>
-          <div class="biggerImg galleryimg"><img class=" imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/10.png" alt="Eye for Design page"><br>Eye for Design Pamplet</div>
-          <div class="biggerImg galleryimg"><img class=" imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/11.png" alt="Look Book Cook Book"><br>Look Book Cook Book</div>
-          <div class="biggerImg galleryimg"><img class=" imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/12.png" alt="Photography"><br>Photography</div>
-          <div class="biggerImg galleryimg"><img class=" imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/13.png" alt="Infographic Sponsor Levels"><br>Sponsor Levels Infographic</div>
-          <div class="biggerImg galleryimg"><img class="imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/14.png" alt="Java One Informational Card"><br>Jave I Informational Card</div>
-          <div class="biggerImg galleryimg"><img class=" imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/15.png" alt="Robotics Thank You Card"><br>Robotics Thank You Card</div>
-          <div class="biggerImg galleryimg"><img class=" imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/16.png" alt="Video Game Development Poster"><br>Video Game Development Poster</div>
-          <div class="biggerImg galleryimg"><img class=" imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/17.png" alt="Magazine Collage"><br>Magazine Collage</div>
+          <div class="biggerImg galleryimg"><img onclick="f1('modal1','img1', 'img/fullsizegalleryimgs/POETRY7.png')" class="imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/4.png" alt="poetree background"><br>Poetree Site Background</div>
+            <div id="modal1" class="modal" onclick="f2('modal1');">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="f2('modal1');">&times;</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img1">
+            </div>
+          <div class="biggerImg galleryimg"><img onclick="f1('modal2','img2','img/fullsizegalleryimgs/prezi.png')" class="imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/5.png" alt="Professional Aspirations presentation theme"><br>Professional Aspirations Theme</div>
+            <div id="modal2" class="modal" onclick="f2('modal2');">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="f2('modal2');">&times;</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img2">
+            </div>
+          <div class="biggerImg galleryimg"><img onclick="f1('modal2','img2','img/fullsizegalleryimgs/casino.png')" class=" imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/6.png" alt="Campus Attractions Casino Night"><br>Campus Attractions Casino Night</div>
+            <div id="modal3" class="modal" onclick="f2('modal3');">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="f2('modal3');">&times;</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img3">
+            </div>
+          <div class="biggerImg galleryimg"><img onclick="f1('modal2','img2','img/fullsizegalleryimgs/beets.jpg')" class="imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/7.png" alt="beets spotify playlist cover"><br>Spotify Playlist Cover<br></div>
+            <div id="modal4" class="modal" onclick="f2('modal4');">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="f2('modal4');">&times;</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img4">
+            </div>
+          <div class="biggerImg galleryimg"><img onclick="f1('modal2','img2','img/fullsizegalleryimgs/icecreamshirt.png')" class=" imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/8.png" alt="Bison Robotics novelty tshirt design"><br>Bison Robotics Novelty Shirt Design</div>
+            <div id="modal5" class="modal" onclick="f2('modal5');">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="f2('modal5');">&times;</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img5">
+            </div>
+          <div class="biggerImg galleryimg"><img onclick="f1('modal2','img2','img/fullsizegalleryimgs/stats.png')" class="imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/9.png" alt="Robotics statistics"><br>Robotics Statistics<br></div>
+            <div id="modal6" class="modal" onclick="f2('modal6');">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="f2('modal6');">&times;</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img6">
+            </div>
+          <div class="biggerImg galleryimg"><img onclick="f1('modal2','img2','img/fullsizegalleryimgs/3.png')" class=" imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/10.png" alt="Eye for Design page"><br>Eye for Design Pamplet</div>
+            <div id="modal7" class="modal" onclick="f2('modal7');">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="f2('modal7');">&times;</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img7">
+            </div>
+          <div class="biggerImg galleryimg"><img onclick="f1('modal2','img2','img/fullsizegalleryimgs/4.png')" class=" imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/11.png" alt="Look Book Cook Book"><br>Look Book Cook Book</div>
+            <div id="modal8" class="modal" onclick="f2('modal8');">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="f2('modal8');">&times;</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img8">
+            </div>
+          <div class="biggerImg galleryimg"><img onclick="f1('modal2','img2','img/fullsizegalleryimgs/photo.png')" class=" imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/12.png" alt="Photography"><br>Photography</div>
+            <div id="modal9" class="modal" onclick="f2('modal9');">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="f2('modal9');">&times;</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img9">
+            </div>
+          <div class="biggerImg galleryimg"><img onclick="f1('modal2','img2','img/fullsizegalleryimgs/sponsor.png')"  class=" imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/13.png" alt="Infographic Sponsor Levels"><br>Sponsor Levels Infographic</div>
+            <div id="modal10" class="modal" onclick="f2('modal10');">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="f2('modal10');">&times;</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img10">
+            </div>
+          <div class="biggerImg galleryimg"><img onclick="f1('modal2','img2','img/fullsizegalleryimgs/2.png')" class="imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/14.png" alt="Java One Informational Card"><br>Jave I Informational Card</div>
+            <div id="modal11" class="modal" onclick="f2('modal11');">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="f2('modal11');">&times;</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img11">
+            </div>
+          <div class="biggerImg galleryimg"><img onclick="f1('modal2','img2','img/fullsizegalleryimgs/card.png')" class=" imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/15.png" alt="Robotics Thank You Card"><br>Robotics Thank You Card</div>
+            <div id="modal12" class="modal" onclick="f2('modal12');" >
+                    <!-- The Close Button -->
+                    <span class="close" onclick="f2('modal12');">&times;</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img12">
+            </div>
+          <div class="biggerImg galleryimg"><img onclick="f1('modal2','img2','img/fullsizegalleryimgs/vgd.png')" class=" imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/16.png" alt="Video Game Development Poster"><br>Video Game Development Poster</div>
+            <div id="modal13" class="modal" onclick="f2('modal13');">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="f2('modal13');">&times;</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img13">
+            </div>
+          <div class="biggerImg galleryimg"><img onclick="f1('modal2','img2','img/fullsizegalleryimgs/mag.jpg')" class=" imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/17.png" alt="Magazine Collage"><br>Magazine Collage</div>
+            <div id="modal14" class="modal" onclick="f2('modal14');">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="f2('modal14');">&times;</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img14">
+            </div>
+          <div class="biggerImg galleryimg"><img onclick="f1('modal2','img2','img/fullsizegalleryimgs/1.png')" class=" imgbwtocolor img-fluid img-profile rounded-circle mx-auto mb-2" src="img/geo.png" alt="Geofencing"><br>Geofencing Info</div>
+            <div id="modal15" class="modal" onclick="f2('modal15');">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="f2('modal15');">&times;</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img15">
+            </div>
         </div>
       </section>
 
@@ -422,6 +515,28 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
+
+      <script>
+         function f1(modalId, modalImgId, img4mod){
+             // Get the modal
+             var modal = document.getElementById(modalId);
+             // Get the image and insert it inside the modal - use its "alt" text as a caption
+             //var img = document.getElementById(thumbId);
+             var modalImg = document.getElementById(modalImgId);
+             //img.onclick = f1();
+             modal.style.display = "block";
+             modalImg.src = img4mod;
+             //captionText.innerHTML = this.alt;
+         }
+
+         function f2(modalId) {
+            // Get the modal
+             var modal = document.getElementById(modalId);
+             modal.style.display = "none";
+         }
+       </script>
+
+
 
   </body>
 
