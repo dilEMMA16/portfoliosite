@@ -297,7 +297,7 @@ a:hover, a:focus, a:active {
     .modal-content {
         width: 100%;
     }
-    .parallax { background-image: url(../img/parablackhalfvert.png)!important; background-attachment: scroll; background-size: contain;}
+    .parallax { background-image: url(../img/parablack1xvert.png)!important; background-attachment: scroll; background-size: contain;}
 
 
     /*  .parallax {display:none;} .parallax { background-image: url(../img/mediaparallax.png) !important; background-attachment: scroll; background-size: contain;}
