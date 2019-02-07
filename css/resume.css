@@ -9,7 +9,7 @@
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
-  color: #868e96;
+  color: #6c5f5b;
 }
 
 @media (min-width: 992px) {
@@ -29,7 +29,7 @@ h6 {
   font-weight: 700;
   text-transform: uppercase;
   /*color: #343a40;ORIGINAL*/
-  color: #9c260d;
+  color: #cdab81 ;
 }
 
 hr {
@@ -66,15 +66,15 @@ p.lead {
   font-weight: 500;
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 1.5rem;
-  color:#bd5d38;
+  color:#dac3b3;
 }
 
 .social-icons a {
   display: inline-block;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #9c260d;
-  color: #711c09 !important;
+  background-color: #6c5f5b;
+  color: #dac3b3 !important;
   border-radius: 100%;
   text-align: center;
   font-size: 1.5rem;
@@ -87,16 +87,16 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #bd5d38;
+  background-color: rgba(255,255,255,.5);
 }
 
 .dev-icons {
   font-size: 3rem;
-  color:#bd5d38;
+  color:#cdab81;
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #9c260d;
+  /* color: #eae2d6; */
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -106,7 +106,7 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
+  outline-color: white;
 }
 
 @media (min-width: 992px) {
@@ -232,21 +232,21 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #9c260d !important;
+  background-color: #6c5f5b!important;
 }
 
 .text-primary {
-  /*color: #9c260d !important;868e96 gray*/
+  /*color: #f2f0e6!important;868e96 gray*/
   color: #C78577 !important;
 
 }
 
 a {
-  color: #9c260d;
+  color: white;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #eae2d6;
 }
 
 
@@ -287,8 +287,8 @@ a:hover, a:focus, a:active {
 
 .close:hover,
 .close:focus {
-    filter: brightness(1.1);
-    text-decoration: none;
+    color:white;
+    text-decoration: none !important;
     cursor: pointer;
 }
 
@@ -297,7 +297,7 @@ a:hover, a:focus, a:active {
     .modal-content {
         width: 100%;
     }
-    .parallax { background-image: url(../img/mediaparallax.png) !important; background-attachment: scroll; background-size: contain;}
+    .parallax { background-image: url(../img/parablackhalfvert.png)!important; background-attachment: scroll; background-size: contain;}
 
 
     /*  .parallax {display:none;} .parallax { background-image: url(../img/mediaparallax.png) !important; background-attachment: scroll; background-size: contain;}
